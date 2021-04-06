@@ -8,8 +8,17 @@ Configure em ```https://github.com/dlimabr/spring-cloud-config-configuration/msi
 ```
 mvn spring-boot:run
 ```
+## Necessário ter um servidor RabbitMQ
+https://www.rabbitmq.com/download.html
 
-## Inserir os seguintes registros no banco
+## Necessário ter um servidor Redis
+https://github.com/microsoftarchive/redis/releases/
+
+## Necessário instalar o Postgress
+https://www.postgresql.org/download/
+
+
+## Após startar a aplicação, deve-se inserir os seguintes registros no banco:
 ```
 INSERT INTO roles(name) VALUES('ROLE_USER');
 INSERT INTO roles(name) VALUES('ROLE_MODERATOR');
