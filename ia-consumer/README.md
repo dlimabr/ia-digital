@@ -2,7 +2,7 @@
 
 
 ## Todas as configurações da aplicação estão no GitHub
-Configure em ```https://github.com/dlimabr/spring-cloud-config-configuration/iaconsumer-default.properties```
+Configure o nome da Fila e dados de Email em ```https://github.com/dlimabr/spring-cloud-config-configuration/iaconsumer-default.properties```
 
 ## Comando para startar o spring-boot
 ```
