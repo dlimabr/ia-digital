@@ -1,4 +1,4 @@
-# ia-digital: Aplicação completa (Backend com Spring-Boot e FrontEnd com Angular) 
+# ia-digital: Aplicação completa (Backend com Spring-Boot e FrontEnd com Angular 8) 
 - CRUD de Usuário
 - Api de Autenticação e Autorização com Spring Security e Spring Session com Redis
 - Spring Cloud para gerenciar todas as configurações
