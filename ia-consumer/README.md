@@ -10,3 +10,4 @@ mvn spring-boot:run
 ```
 
 ## Necessário ter um servidor RabbitMQ
+https://www.rabbitmq.com/download.html
