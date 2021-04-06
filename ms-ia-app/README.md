@@ -1,10 +1,12 @@
-# AngularApp 8
+# AngularApp 8 - Autenticação baseada em JWT – Token
 
-Autenticação baseada em JWT – Token
+Principais serviços integrados na aplicação:
 - POST `api/auth/signup` para Cadastro de Usuário
 - POST `api/auth/signin` para Login
 - POST `api/email` para enviar mensagem para fila do RabbitMQ
 - GET `api/users` para recuperar usuários
+- Get `api/users/principal` para recuperar usuário da sessão
+- POST `api/auth/invalidate/session` para invalidar sessão
 
 ## Development server
 
