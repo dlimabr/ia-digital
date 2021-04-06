@@ -1,7 +1,7 @@
-# Api de Autenticação e Autorização com Spring Boot, Spring Security, Spring Cloud e PostgreSQL
+# Api de Autenticação e Autorização com Spring Boot, Spring Security, Spring Cloud, Spring Session com Redis e Mensageria com RabbitMQ
 
 
-## Configurar Spring Datasource, JPA, RabbitMQ
+## Todas as configurações da aplicação estão no GitHub
 Configure em ```https://github.com/dlimabr/spring-cloud-config-configuration/msiawebapi-default.properties```
 
 ## Comando para startar o spring-boot
