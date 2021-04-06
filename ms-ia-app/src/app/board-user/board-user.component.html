@@ -1,0 +1,86 @@
+<div class="container">  
+  <div class="list row">
+  <div class="col-md-8">
+    <div class="input-group mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Busca por username"
+        [(ngModel)]="title"
+      />
+      <div class="input-group-append">
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          (click)="searchUser()"
+        >
+          Buscar
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <h4>Enviar Email para:</h4>
+    <ul class="list-group">
+    <li>
+    <input type="checkbox" style="margin-bottom: 20px" name="chkUsersAdmin" [checked]="isChecked$ | async" (change)="toggleChecked()"> Todos os usuários ADMIN
+    </li>
+      <li
+        class="list-group-item"
+        *ngFor="let user of users; let i = index"
+        [class.active]="i == currentIndex"
+        (click)="setActiveUser(user, i)"
+      >
+        {{ user.username }}
+      </li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <div *ngIf="currentUser">
+      <h4>Usuário</h4>
+      <div>
+        <label><strong>Nome:</strong></label> {{ currentUser.username }}
+      </div>
+      <div>
+        <label><strong>Email:</strong></label>
+        {{ currentUser.email }} 
+      </div> 
+      </div>
+      <div *ngIf="currentUser || isAllUsersAdmin">
+       <h4>Mensagem</h4>
+     <form
+      *ngIf="!isSuccessful"
+      name="form"
+      (ngSubmit)="f.form.valid && onSubmit()"
+      #f="ngForm"
+      novalidate
+    >  
+    	<input type="hidden" name="allUsersAdmin" [(ngModel)]="form.allUsersAdmin" #allUsersAdmin/>    
+    
+		<input
+        type="text"
+        class="form-control"
+        placeholder="Digite a mensagem do email"
+        name="message"
+        [(ngModel)]="form.message"
+        #message
+      />
+      <div class="form-group">
+        <button type="submit"  class="btn btn-primary btn-block">Enviar Email</button>
+      </div>
+        <div class="alert alert-warning" *ngIf="f.submitted && isSignUpFailed">
+        Erro durante envio da mensagem!<br />{{ errorMessage }}
+      </div>
+        </form>
+        <div class="alert alert-success" *ngIf="isSuccessful">
+     	Mensagem enviada com sucesso!
+    </div>
+    </div>
+
+    <div *ngIf="!currentUser && !isAllUsersAdmin">
+      <br />
+      <p>Por favor, selecione um usuário</p>
+    </div>
+  </div>
+</div>
+</div>

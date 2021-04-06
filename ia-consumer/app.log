@@ -1,0 +1,18 @@
+2021-04-03 20:49:37,398 INFO com.ia.messaging.consumer.ConsumerAppConfig [main] Starting ConsumerAppConfig on BR-FZ130012 with PID 22380 (D:\Pessoal\spring-boot-rabbitmq-master\consumer\target\classes started by danielle.lima in D:\Pessoal\spring-boot-rabbitmq-master\consumer)
+2021-04-03 20:49:37,405 INFO com.ia.messaging.consumer.ConsumerAppConfig [main] No active profile set, falling back to default profiles: default
+2021-04-03 20:49:40,347 INFO com.ia.messaging.consumer.ConsumerAppConfig [main] Started ConsumerAppConfig in 4.338 seconds (JVM running for 5.358)
+2021-04-03 21:04:05,203 INFO com.ia.messaging.consumer.ConsumerAppConfig [main] Starting ConsumerAppConfig on BR-FZ130012 with PID 19160 (D:\Pessoal\spring-boot-rabbitmq-master\consumer\target\classes started by danielle.lima in D:\Pessoal\spring-boot-rabbitmq-master\consumer)
+2021-04-03 21:04:05,207 INFO com.ia.messaging.consumer.ConsumerAppConfig [main] No active profile set, falling back to default profiles: default
+2021-04-03 21:04:06,989 INFO com.ia.messaging.consumer.ConsumerAppConfig [main] Started ConsumerAppConfig in 2.202 seconds (JVM running for 2.663)
+2021-04-03 21:05:24,263 INFO com.ia.messaging.consumer.ConsumerAppConfig [main] Starting ConsumerAppConfig on BR-FZ130012 with PID 22452 (D:\Pessoal\spring-boot-rabbitmq-master\consumer\target\classes started by danielle.lima in D:\Pessoal\spring-boot-rabbitmq-master\consumer)
+2021-04-03 21:05:24,263 INFO com.ia.messaging.consumer.ConsumerAppConfig [main] No active profile set, falling back to default profiles: default
+2021-04-03 21:05:25,646 INFO com.ia.messaging.consumer.ConsumerAppConfig [main] Started ConsumerAppConfig in 1.76 seconds (JVM running for 2.118)
+2021-04-03 21:05:41,327 INFO com.ia.messaging.consumer.EmailConsumer [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] message: obrigada
+2021-04-03 21:05:45,145 INFO com.ia.messaging.consumer.EmailConsumer [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] message: obrigada
+2021-04-03 21:05:48,802 INFO com.ia.messaging.consumer.EmailConsumer [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] message: obrigada
+2021-04-03 21:06:34,443 INFO com.ia.messaging.consumer.EmailConsumer [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] message: testes4
+2021-04-03 21:06:38,128 INFO com.ia.messaging.consumer.EmailConsumer [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] message: testes4
+2021-04-03 21:06:41,339 INFO com.ia.messaging.consumer.EmailConsumer [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] message: testes4
+2021-04-03 21:09:37,310 INFO com.ia.messaging.consumer.EmailConsumer [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] message: mais uma vez
+2021-04-03 21:09:40,564 INFO com.ia.messaging.consumer.EmailConsumer [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] message: mais uma vez
+2021-04-03 21:09:43,734 INFO com.ia.messaging.consumer.EmailConsumer [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] message: mais uma vez
