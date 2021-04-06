@@ -1,7 +1,12 @@
-# Consumer
-
-Consome mensagens da Fila do RabbitMq
-- Necessário ter um servidor RabbitMQ. Por favor, verificar configurações necessárias na aplicação.
+# Aplicação:  Consome mensagens do RabbitMQ com SpringBoot
 
 
-Envia email de acordo com as informações recuperadas na mensagem da fila.
+## Todas as configurações da aplicação estão no GitHub
+Configure em ```https://github.com/dlimabr/spring-cloud-config-configuration/iaconsumer-default.properties```
+
+## Comando para startar o spring-boot
+```
+mvn spring-boot:run
+```
+
+## Necessário ter um servidor RabbitMQ
